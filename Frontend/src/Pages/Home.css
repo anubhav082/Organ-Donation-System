@@ -1,0 +1,92 @@
+.homebody {
+    margin: 0;
+    background-color: grey;
+    
+  
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+  
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+  }
+  /* &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0); 
+    z-index: 1; 
+} */
+
+.footer1 {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin-top: 5px;
+ 
+}
+.home-background
+{
+  background-image: url('../h.jpg'); 
+ 
+  
+  background-color: rgba(255, 255, 255, 0) !important;/* Path to your image */
+  background-size: contain;
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    height: 100vh; /* Set height to full viewport height */
+    
+}
+.section-home
+{
+  color: white;
+}
+.section-home .btn{
+    background-color: #115c9b;
+    padding: 10px 25px;
+    transition: all, 0.3s;
+    border: 0px;
+    border-radius: 0px;
+    color: white;
+}
+.section-home .btn:hover{
+  background-color: white;
+  padding: 10px 25px;
+  color: rgb(17, 92, 155);
+  border: 0px;
+  border-radius: 0px;
+}
+/* .whyorganimage{
+  background-image: url('../4.jpg');
+  background-size: cover;
+  background-position: center; 
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-width: 100px;
+  min-height: 1000px;
+} */
+
+.whyorgandonation{
+  border : 5px solid #115c9b;
+}
+.linear-gradient{
+  background-image: linear-gradient(to bottom right,rgba(13,110,253),rgb(7, 41, 70));
+}
+.linear-gradient1{
+  background-image: linear-gradient(to bottom right,rgba(13,110,253),rgb(21, 81, 133));
+}
+
+.box-shadow{
+  box-shadow: 24px 24px 30px #6d8dad;
+}
+  

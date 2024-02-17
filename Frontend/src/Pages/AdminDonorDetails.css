@@ -1,0 +1,29 @@
+/* table, tr, th, td{
+    border: 1px solid black;
+} */
+tr{
+    border-top: 0.5px solid lightgrey;
+}
+
+table{
+    
+    align-content: center;
+    
+}
+
+
+
+th,tr,td{
+    /* padding: 5px !important; */
+    /* border : 1px solid black; */
+}
+tr,td{
+    padding: 5px !important;
+}
+th{
+    /* padding: 2px!important; */
+    padding-top: 5px!important;
+}
+/* td{
+    min-width: 1px;
+} */

@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  organ:
+    image: 01rahulsharma/organ_donation_project:frontend
+    container_name: organ
+    ports:
+      - 3000:3000
+    networks:
+      - nwt
+  flask:
+    image: 01rahulsharma/organ_donation_project:backend
+    container_name: flask
+    ports:
+      - 5000:5000
+    networks:
+      - nwt
+
+networks:
+  nwt:
+

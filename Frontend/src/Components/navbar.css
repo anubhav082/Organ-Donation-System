@@ -1,0 +1,27 @@
+.stickyy{
+
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.navbar ul li a, .navbar a{
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+ 
+ 
+
+}
+.navbar ul li a:active,
+.navbar a:active,
+.navbar a:hover,
+.navbar ul li a:hover
+{
+  color: rgb(13,110,253);  
+}
+
+.profile1{
+  margin-left: auto !important;
+}
+
